@@ -84,7 +84,7 @@
 }
 
 @media (max-width:1024px) {
-        .container{
+        .gamecontainer{
            flex-wrap: wrap;
         }
 }
