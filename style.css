@@ -83,7 +83,7 @@
     background-color:rgba(199, 21, 134, 0.597);
 }
 
-@media (max-width:1500px) {
+@media (max-width:1024px) {
         .container{
            flex-wrap: wrap;
         }
