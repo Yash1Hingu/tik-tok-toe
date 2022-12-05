@@ -35,7 +35,7 @@ function checkWin(){
 boxs.forEach(function(element){
     let boxtext = element.querySelector(".boxtext");
     element.addEventListener("click",()=> {
-        if(boxtext.innerHTML == ""){
+        if(boxtext.innerHTML == "" && gameover === false){
             boxtext.innerHTML = turn;
             turn = changeTurn();
             checkWin();
