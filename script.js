@@ -57,5 +57,6 @@ reset.addEventListener("click",()=>{
         document.getElementById('turn').style.backgroundColor = "";
         document.getElementById('turn').style.border = "";
         document.getElementById('turn').style.borderRadius = "";
+        gameover = false;
     })
 })
